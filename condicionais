@@ -1,0 +1,10 @@
+km = float(input('Digite o km do carro ao passar o radar: '))
+
+limite = 80
+excesso = km - limite
+multa = excesso * 20
+
+if km > 80:
+    print(f' Você foi multado por dirigir a {km}km. \n Sua multa devida é de R${multa} reais. \n Continue assim que Deus te dará um poste ')
+else:
+    print(f'Dirija com segurança.')
